@@ -1,0 +1,13 @@
+# Node & Dependencies
+**/node_modules/
+**/dist/
+**/build/
+
+# Environment Variables (Sangat Penting untuk Keamanan Blockchain/DB)
+**/.env
+**/.env.local
+
+# OS Logs & Editor
+.DS_Store
+.vscode/
+*.log
