@@ -49,12 +49,9 @@ const Navbar = () => {
         <NavLink to="/data-mahasiswa" className={(p) => linkClass(p) + " " + activeLine(p)}>
           Data Mahasiswa
         </NavLink>
-
-        <NavLink to="/daftar-unit" className={(p) => linkClass(p) + " " + activeLine(p)}>
+<NavLink to="/daftar-unit" className={(p) => linkClass(p) + " " + activeLine(p)}>
           Daftar Unit
         </NavLink>
-
-        {/* 🔥 FIX: TIDAK ADA HOVER MERAH */}
         <button
           onClick={handleLogout}
           className="px-4 py-2 text-sm font-semibold text-gray-500"
